@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin: 30px 0px;
+    width: 500px;
+    height: 200px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+
+#static-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: beige;
+}
+
+#dynamic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#cta-button {
+    width: 70px;
+    height: 30px;
+}
